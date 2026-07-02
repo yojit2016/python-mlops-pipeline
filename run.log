@@ -1,0 +1,11 @@
+2026-07-02 21:30:05 | INFO     | ============================================================
+2026-07-02 21:30:05 | INFO     | Job start
+2026-07-02 21:30:05 | INFO     | Args: input=data.csv, config=config.yaml, output=metrics.json, log_file=run.log
+2026-07-02 21:30:05 | INFO     | Config loaded + validated: seed=42, window=5, version=v1
+2026-07-02 21:30:05 | INFO     | Random seed set: 42
+2026-07-02 21:30:05 | INFO     | Rows loaded: 10000 from data.csv
+2026-07-02 21:30:05 | INFO     | Rolling mean computed on 'close' with window=5
+2026-07-02 21:30:05 | INFO     | Signal generated: 4989 positive signals out of 10000 rows (4 leading rows had insufficient history for window=5 and were set to signal=0)
+2026-07-02 21:30:05 | INFO     | Metrics summary: rows_processed=10000, signal_rate=0.4989, latency_ms=149
+2026-07-02 21:30:05 | INFO     | Metrics written to metrics.json
+2026-07-02 21:30:05 | INFO     | Job end | status=success
